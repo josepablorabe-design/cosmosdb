@@ -5,10 +5,14 @@ Conexión a Azure:
 az login 
 az logout
 
+az ad signed-in-user show --query id
+
 Activar entorno en Python:
 
 python -m venv venv
-.\venv\Scripts\Activate.ps1
+.\venv\Scripts\Activate.
+
+pip list
 
 Grupos de Recursos
 
